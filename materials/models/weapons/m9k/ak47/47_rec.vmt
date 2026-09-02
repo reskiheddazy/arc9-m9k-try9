@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\m9k\ak47\Receiver"
+	"$bumpmap" 	"models\weapons\m9k\ak47\Receiver_Normal"
+
+}
+
