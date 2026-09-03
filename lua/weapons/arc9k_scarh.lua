@@ -32,7 +32,7 @@ SWEP.WorldModelOffset = {
 SWEP.Crosshair = true
 
 
-SWEP.ViewModelFOVBase = 80 -- Set to override viewmodel FOV
+SWEP.ViewModelFOVBase = 75 -- Set to override viewmodel FOV
 
 
 

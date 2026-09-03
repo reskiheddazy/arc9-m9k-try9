@@ -32,7 +32,7 @@ SWEP.WorldModelOffset = {
 SWEP.Crosshair = true
 
 
-SWEP.ViewModelFOVBase = 80 -- Set to override viewmodel FOV
+SWEP.ViewModelFOVBase = 75 -- Set to override viewmodel FOV
 
 
 
@@ -168,7 +168,7 @@ SWEP.IronSights = {
 SWEP.DoFDepth = 0.07 -- Adjust if front sight getting blurred too
 
 
-SWEP.ActivePos = Vector(0, 0, 0)
+SWEP.ActivePos = Vector(0,0, -0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 

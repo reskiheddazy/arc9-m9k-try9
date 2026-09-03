@@ -32,7 +32,7 @@ SWEP.WorldModelOffset = {
 SWEP.Crosshair = true
 
 
-SWEP.ViewModelFOVBase = 80 -- Set to override viewmodel FOV
+SWEP.ViewModelFOVBase = 75 -- Set to override viewmodel FOV
 
 
 
@@ -155,7 +155,7 @@ SWEP.HideBones = {"mag2"} -- bones to hide in third person and customize menu. {
 
 
 SWEP.IronSights = {
-    Pos = Vector(-3.414, -3.642, 1.445),
+    Pos = Vector(-3.414, -5, 1.445),
     Ang = Angle(0, 0.351, 0),
     Magnification = 1,
     AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
@@ -166,8 +166,9 @@ SWEP.IronSights = {
 SWEP.DoFDepth = 0.07 -- Adjust if front sight getting blurred too
 
 
-SWEP.ActivePos = Vector(0, 0, 0)
+SWEP.ActivePos = Vector(0,0, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
+
 
 
 SWEP.CrouchPos = Vector(0,0, 0)
