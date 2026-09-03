@@ -38,15 +38,13 @@ SWEP.ViewModelFOVBase = 80 -- Set to override viewmodel FOV
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 38 -- Damage done at point blank range
-SWEP.DamageMin = 30 -- Damage done at maximum range
+SWEP.DamageMax = 50 -- Damage done at point blank range
+SWEP.DamageMin = 47 -- Damage done at maximum range
 
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 4750 -- In Hammer units, how far bullets can travel before dealing DamageMin.
-SWEP.Distance = 33000 -- In Hammer units, how far bullets can travel, period.
-
+SWEP.RangeMax = 2550 -- range battle rifles
 
 
 
@@ -60,7 +58,7 @@ SWEP.ClipSize = 20 -- Self-explanatory.
 
 
 
-SWEP.RPM = 620
+SWEP.RPM = 580
 
 
 SWEP.Firemodes = {
@@ -77,11 +75,11 @@ SWEP.Firemodes = {
 
 
 -- General recoil multiplier
-SWEP.Recoil = 1
+SWEP.Recoil = 1.75
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 1 -- Multiplier for vertical recoil
-SWEP.RecoilSide = 1 -- Multiplier for vertical recoil
+SWEP.RecoilSide = 0.75 -- Multiplier for horizontal recoil
 
 SWEP.RecoilRandomUp = 0
 SWEP.RecoilRandomSide = 0

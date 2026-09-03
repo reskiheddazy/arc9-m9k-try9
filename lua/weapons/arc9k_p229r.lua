@@ -39,14 +39,13 @@ SWEP.ViewModelFOVBase = 80 -- Set to override viewmodel FOV
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 48 -- Damage done at point blank range
-SWEP.DamageMin = 25 -- Damage done at maximum range
+SWEP.DamageMax = 59 -- Damage done at point blank range
+SWEP.DamageMin = 12 -- Damage done at maximum range
 
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 2000 -- In Hammer units, how far bullets can travel before dealing DamageMin.
-SWEP.Distance = 33000 -- In Hammer units, how far bullets can travel, period.
+SWEP.RangeMax = 800 -- range pistols
 
 
 
