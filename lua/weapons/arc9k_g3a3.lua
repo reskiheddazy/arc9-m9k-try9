@@ -144,9 +144,9 @@ SWEP.DistantShootSound = "^m9k_arc9/g3a3/fire_sup.wav"
 SWEP.MuzzleParticle = "muzzleflash_G3" -- Used for some muzzle effects.
 
 SWEP.ShellPitch = 100 -- for shell sounds
-SWEP.ShellSounds = ARC9.PistolShellSoundsTable
+SWEP.ShellSounds = ARC9.Shell308SoundsTable
 
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellModel = "models/shells/shell_762nato.mdl"
 SWEP.ShellScale = 1
 SWEP.NoShellEject = true -- Don't eject shell on fire
 SWEP.NoShellEjectManualAction = true -- Don't eject shell while cycling
@@ -188,10 +188,6 @@ SWEP.HoldTypeCustomize = "physgun"
 
 SWEP.Attachments = {}
 
-local cloths = {"rz_foley/cloth_1.wav", "rz_foley/cloth_2.wav", "rz_foley/cloth_3.wav", "rz_foley/cloth_4.wav", "rz_foley/cloth_5.wav", "rz_foley/cloth_6.wav"}
-local movement_rifle = {"rz_foley/rifles/movement_1.wav", "rz_foley/rifles/movement_2.wav", "rz_foley/rifles/movement_3.wav", "rz_foley/rifles/movement_4.wav"}
-
-
 
 
 SWEP.Animations = {
@@ -219,19 +215,25 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         EventTable = {
+            {s = "rz_foley/grabs/grab_metal.wav", t = 0},
             {s = "m9k_arc9/g3a3/magout.wav", t = 0.25},
+            {s = "rz_foley/pouches/magpouch_pull_rifle.wav", t = 0.75},
             {s = "m9k_arc9/g3a3/maghit.wav", t = 1.40},
             {s = "m9k_arc9/g3a3/magin.wav", t = 1.43},
+            {s = "rz_foley/grabs/grab_metal.wav", t = 1.85},
         }
     },
     ["reload_empty"] = {
         Source = "reload_empty",
         EventTable = {
+            {s = "rz_foley/grabs/grab_metal.wav", t = 0},
             {s = "m9k_arc9/g3a3/back2.wav", t = 0.06},
             {s = "m9k_arc9/g3a3/magout.wav", t = 0.60},
+            {s = "rz_foley/pouches/magpouch_pull_rifle.wav", t = 1.2},
             {s = "m9k_arc9/g3a3/maghit.wav", t = 1.75},
             {s = "m9k_arc9/g3a3/magin.wav", t = 1.80},
             {s = "m9k_arc9/g3a3/slap.wav", t = 2.29},
+            {s = "rz_foley/grabs/grab_metal.wav", t = 2.78},
         }
     },
 }

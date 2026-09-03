@@ -187,10 +187,6 @@ SWEP.HoldTypeCustomize = "physgun"
 
 SWEP.Attachments = {}
 
-local cloths = {"rz_foley/cloth_1.wav", "rz_foley/cloth_2.wav", "rz_foley/cloth_3.wav", "rz_foley/cloth_4.wav", "rz_foley/cloth_5.wav", "rz_foley/cloth_6.wav"}
-local movement_rifle = {"rz_foley/rifles/movement_1.wav", "rz_foley/rifles/movement_2.wav", "rz_foley/rifles/movement_3.wav", "rz_foley/rifles/movement_4.wav"}
-
-
 
 
 SWEP.Animations = {
@@ -218,19 +214,25 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         EventTable = {
+            {s = "rz_foley/grabs/grab_metal.wav", t = 0},
             {s = "m9k_arc9/fal/magout2.wav", t = 0.15},
+            {s = "rz_foley/pouches/magpouch_pull_rifle.wav", t = 0.75},
             {s = "m9k_arc9/fal/maghit.wav", t = 1.35},
             {s = "m9k_arc9/fal/magin.wav", t = 1.45},
+            {s = "rz_foley/grabs/grab_metal.wav", t = 1.90},
         }
     },
     ["reload_empty"] = {
         Source = "reload_empty",
         EventTable = {
+            {s = "rz_foley/grabs/grab_metal.wav", t = 0},
+            {s = "rz_foley/pouches/magpouch_pull_rifle.wav", t = 0.05},
             {s = "m9k_arc9/fal/magout2.wav", t = 0.45},
             {s = "m9k_arc9/fal/maghit.wav", t = 1.05},
             {s = "m9k_arc9/fal/magin.wav", t = 1.21},
             {s = "m9k_arc9/fal/pull.wav", t = 1.70},
             {s = "m9k_arc9/fal/fwd.wav", t = 1.85},
+            {s = "rz_foley/grabs/grab_metal.wav", t = 2.25},
         }
     },
 }

@@ -142,9 +142,9 @@ SWEP.DistantShootSound = "^m9k_arc9/g36c/fire_sup.wav"
 SWEP.MuzzleParticle = "muzzleflash_FAMAS" -- Used for some muzzle effects.
 
 SWEP.ShellPitch = 100 -- for shell sounds
-SWEP.ShellSounds = ARC9.PistolShellSoundsTable
+SWEP.ShellSounds = ARC9.ShellSoundsTable
 
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellModel = "models/shells/shell_556.mdl"
 SWEP.ShellScale = 1
 SWEP.NoShellEject = true -- Don't eject shell on fire
 SWEP.NoShellEjectManualAction = true -- Don't eject shell while cycling
@@ -186,9 +186,6 @@ SWEP.HoldTypeCustomize = "physgun"
 
 SWEP.Attachments = {}
 
-local cloths = {"rz_foley/cloth_1.wav", "rz_foley/cloth_2.wav", "rz_foley/cloth_3.wav", "rz_foley/cloth_4.wav", "rz_foley/cloth_5.wav", "rz_foley/cloth_6.wav"}
-local movement_pi = {"rz_foley/shotguns/movement_1.wav", "rz_foley/shotguns/movement_2.wav", "rz_foley/shotguns/movement_3.wav", "rz_foley/shotguns/movement_4.wav"}
-
 
 
 
@@ -217,19 +214,24 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         EventTable = {
+            {s = "rz_foley/pouches/magpouch_pull_rifle.wav", t = 0},
+            {s = "rz_foley/grabs/grab_polymer.wav", t = 0.05},
             {s = "m9k_arc9/g36c/magout.wav", t = 0.48},
             {s = "m9k_arc9/g36c/maghit.wav", t = 1},
             {s = "m9k_arc9/g36c/magin.wav", t = 1.13},
+            {s = "rz_foley/grabs/grab_polymer.wav", t = 1.98},
         }
     },
     ["reload_empty"] = {
         Source = "reload_empty",
         EventTable = {
             {s = "m9k_arc9/g36c/magout.wav", t = 0.15},
+            {s = "rz_foley/pouches/magpouch_pull_rifle.wav", t = 1},
             {s = "m9k_arc9/g36c/maghit.wav", t = 1.50},
             {s = "m9k_arc9/g36c/magin.wav", t = 1.66},
             {s = "m9k_arc9/g36c/pull.wav", t = 2.05},
             {s = "m9k_arc9/g36c/fwd.wav", t = 2.19},
+            {s = "rz_foley/grabs/grab_polymer.wav", t = 2.65},
         }
     },
 }

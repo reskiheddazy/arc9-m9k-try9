@@ -187,9 +187,6 @@ SWEP.HoldTypeCustomize = "physgun"
 SWEP.Attachments = {}
 
 local shells = {"m9k_arc9/spas12/shell1.wav", "m9k_arc9/spas12/shell2.wav", "m9k_arc9/spas12/shell3.wav", "m9k_arc9/spas12/shell4.wav"}
-local cloths = {"rz_foley/cloth_1.wav", "rz_foley/cloth_2.wav", "rz_foley/cloth_3.wav", "rz_foley/cloth_4.wav", "rz_foley/cloth_5.wav", "rz_foley/cloth_6.wav"}
-local movement_sh = {"rz_foley/shotguns/movement_1.wav", "rz_foley/shotguns/movement_2.wav", "rz_foley/shotguns/movement_3.wav", "rz_foley/shotguns/movement_4.wav"}
-
 
 
 
@@ -247,16 +244,12 @@ SWEP.Animations = {
     ["reload_finish"] = {
         Source = "reload_end",
          EventTable = {
-            {s = cloths , t = 0},
             {s = "rz_foley/grabs/grab_metal.wav" , t = 0.22},
-            {s = movement_sh , t = 0.35},
         }
     },
     ["reload_insert"] = {
         Source = "reload_loop",
         EventTable = {
-            {s = cloths , t = 0},
-            {s = movement_sh , t = 0.35},
             {s = "rz_foley/pouches/magpouch_pull_small.wav", t = 0},
             {s = shells , t = 0.03},
         }
