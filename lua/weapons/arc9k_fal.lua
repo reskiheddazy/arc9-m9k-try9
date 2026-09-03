@@ -142,15 +142,13 @@ SWEP.DistantShootSound = "^m9k_arc9/fal/fire_sup.wav"
 SWEP.MuzzleParticle = "muzzleflash_FAMAS" -- Used for some muzzle effects.
 
 SWEP.ShellPitch = 100 -- for shell sounds
-SWEP.ShellSounds = ARC9.PistolShellSoundsTable
+SWEP.ShellSounds = ARC9.Shell308SoundsTable
 
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellModel = "models/shells/shell_762nato.mdl"
 SWEP.ShellScale = 1
 SWEP.NoShellEject = true -- Don't eject shell on fire
 SWEP.NoShellEjectManualAction = true -- Don't eject shell while cycling
 SWEP.ManualActionEjectAnyway = true -- Overrides standard behaviour to eject a shell when a shot is fired and manual action is on.
-
-
 
 SWEP.HideBones = {"mag2"} -- bones to hide in third person and customize menu. {"list", "of", "bones"}
 
