@@ -223,6 +223,7 @@ SWEP.Animations = {
         Source = "reload",
         EventTable = {
             {s = "m9k_arc9/f2000/magout.wav", t = 0.25},
+            {s = "rz_foley/pouches/magpouch_pull_rifle.wav", t = 0.75},
             {s = "m9k_arc9/f2000/maghit.wav", t = 1.39},
             {s = "m9k_arc9/f2000/magin.wav", t = 1.57},
         }
@@ -231,6 +232,7 @@ SWEP.Animations = {
         Source = "reload_empty",
         EventTable = {
             {s = "m9k_arc9/f2000/magout.wav", t = 0.25},
+            {s = "rz_foley/pouches/magpouch_pull_rifle.wav", t = 0.75},
             {s = "m9k_arc9/f2000/maghit.wav", t = 1.39},
             {s = "m9k_arc9/f2000/magin.wav", t = 1.57},
             {s = "m9k_arc9/f2000/boltback.wav", t = 2.09},
