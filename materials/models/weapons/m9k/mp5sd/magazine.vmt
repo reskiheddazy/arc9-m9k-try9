@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\m9k\mp5sd/magazine"
+	"$bumpmap" "models\weapons\m9k\mp5sd\magazine_norm"
+	"$nocull" "1"
+}

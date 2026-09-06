@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\m9k\mp5sd/receiver"
+	"$bumpmap" "models\weapons\m9k\mp5sd\receiver_norm"
+	"$nocull" "1"
+}
