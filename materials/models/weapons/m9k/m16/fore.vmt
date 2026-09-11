@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\m9k\m16\fore"
+	"$bumpmap"     "models\weapons\m9k\m16\fore_normal"
+	"$normalmapalphaenvmapmask" "1"
+
+}
+

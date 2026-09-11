@@ -3,7 +3,7 @@ SWEP.Base = "arc9_base"
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - M9K"
 SWEP.SubCategory = "Sniper Rifles"
-SWEP.Slot = 2
+SWEP.Slot = 3
 
 SWEP.PrintName = "Intervention"
 SWEP.Class = "Sniper Rifle"
