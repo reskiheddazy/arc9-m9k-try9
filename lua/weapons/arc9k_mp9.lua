@@ -38,8 +38,8 @@ SWEP.ViewModelFOVBase = 75 -- Set to override viewmodel FOV
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 29 -- Damage done at point blank range
-SWEP.DamageMin = 20 -- Damage done at maximum range
+SWEP.DamageMax = 25 -- Damage done at point blank range
+SWEP.DamageMin = 18 -- Damage done at maximum range
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
@@ -75,11 +75,11 @@ SWEP.Firemodes = {
 
 
 -- General recoil multiplier
-SWEP.Recoil = 0.45
+SWEP.Recoil = 0.15
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 0.75 -- Multiplier for vertical recoil
-SWEP.RecoilSide = 1.25 -- Multiplier for vertical recoil
+SWEP.RecoilSide = 0.75 -- Multiplier for vertical recoil
 
 SWEP.RecoilRandomUp = 0
 SWEP.RecoilRandomSide = 0

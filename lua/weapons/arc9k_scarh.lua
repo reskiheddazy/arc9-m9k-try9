@@ -138,7 +138,6 @@ SWEP.SpeedMultCrouch = 1
 
 
 SWEP.ShootSound = "^m9k_arc9/scarh/fire_fp.wav" 
-SWEP.DistantShootSound = "^m9k_arc9/scarh/fire_sup.wav"
 
 
 SWEP.MuzzleParticle = "muzzleflash_G3" -- Used for some muzzle effects.

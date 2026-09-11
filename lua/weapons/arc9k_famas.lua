@@ -38,7 +38,7 @@ SWEP.ViewModelFOVBase = 75 -- Set to override viewmodel FOV
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 39 -- Damage done at point blank range
+SWEP.DamageMax = 32 -- Damage done at point blank range
 SWEP.DamageMin = 29 -- Damage done at maximum range
 
 

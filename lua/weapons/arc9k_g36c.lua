@@ -38,8 +38,8 @@ SWEP.ViewModelFOVBase = 75 -- Set to override viewmodel FOV
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 39 -- Damage done at point blank range
-SWEP.DamageMin = 29 -- Damage done at maximum range
+SWEP.DamageMax = 33 -- Damage done at point blank range
+SWEP.DamageMin = 24 -- Damage done at maximum range
 
 
 
@@ -135,7 +135,6 @@ SWEP.SpeedMultCrouch = 1
 
 
 SWEP.ShootSound = "^m9k_arc9/g36c/fire_fp.wav" 
-SWEP.DistantShootSound = "^m9k_arc9/g36c/fire_sup.wav"
 
 
 SWEP.MuzzleParticle = "muzzleflash_FAMAS" -- Used for some muzzle effects.

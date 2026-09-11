@@ -38,13 +38,13 @@ SWEP.ViewModelFOVBase = 75 -- Set to override viewmodel FOV
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 68 -- Damage done at point blank range
-SWEP.DamageMin = 55 -- Damage done at maximum range
+SWEP.DamageMax = 100 -- Damage done at point blank range
+SWEP.DamageMin = 90 -- Damage done at maximum range
 
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 7550 -- range battle rifles
+SWEP.RangeMax = 10550 -- range sniper rifles
 
 
 
