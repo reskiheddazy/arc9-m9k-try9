@@ -237,7 +237,7 @@ SWEP.Animations = {
     },
     ["reload_empty"] = {
         Source = "reload_empty",
-        MagSwapTime = 2,
+        MagSwapTime = 1.5,
         EventTable = {
             {s = "m9k_arc9/m249/open.wav", t = 0.19},
             {s = "m9k_arc9/m249/magout.wav", t = 0.70},
