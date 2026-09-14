@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models\weapons\cw9k\famas\map2_map"
-      	"$bumpmap" "models\weapons\cw9k\famas\map2_map_normal"
+	"$baseTexture" "models\weapons\m9k\famas\map2_map"
+      	"$bumpmap" "models\weapons\m9k\famas\map2_map_normal"
 	
 }
 

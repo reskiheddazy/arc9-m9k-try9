@@ -48,6 +48,15 @@ SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
 SWEP.RangeMax = 1000 -- In Hammer units, how far bullets can travel before dealing DamageMin.
 SWEP.Distance = 33000 -- In Hammer units, how far bullets can travel, period.
 
+SWEP.BodyDamageMults = {
+    [HITGROUP_HEAD] = 1.05,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_LEFTARM] = 1,
+    [HITGROUP_RIGHTARM] = 1,
+    [HITGROUP_LEFTLEG] = 0.9,
+    [HITGROUP_RIGHTLEG] = 0.9,
+}
 
 
 SWEP.Num = 8 -- Number of bullets to shoot

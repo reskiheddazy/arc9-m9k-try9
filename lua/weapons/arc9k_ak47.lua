@@ -41,6 +41,17 @@ SWEP.ViewModelFOVBase = 75 -- Set to override viewmodel FOV
 SWEP.DamageMax = 48 -- Damage done at point blank range
 SWEP.DamageMin = 28 -- Damage done at maximum range
 
+--ars
+
+SWEP.BodyDamageMults = {
+    [HITGROUP_HEAD] = 1.15,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_LEFTARM] = 1,
+    [HITGROUP_RIGHTARM] = 1,
+    [HITGROUP_LEFTLEG] = 0.9,
+    [HITGROUP_RIGHTLEG] = 0.9,
+}
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.

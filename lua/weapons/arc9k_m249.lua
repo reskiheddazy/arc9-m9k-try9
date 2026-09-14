@@ -44,9 +44,20 @@ SWEP.DamageMin = 21 -- Damage done at maximum range
 
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 1050 -- smgs
+SWEP.RangeMax = 2000 -- lmgs
 
 
+--lmgs
+
+SWEP.BodyDamageMults = {
+    [HITGROUP_HEAD] = 0.95,
+    [HITGROUP_CHEST] = 1.1,
+    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_LEFTARM] = 1,
+    [HITGROUP_RIGHTARM] = 1,
+    [HITGROUP_LEFTLEG] = 0.9,
+    [HITGROUP_RIGHTLEG] = 0.9,
+}
 
 
 

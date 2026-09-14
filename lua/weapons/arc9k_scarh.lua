@@ -47,7 +47,17 @@ SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
 SWEP.RangeMax = 2550 -- range battle rifles
 
 
+--brs
 
+SWEP.BodyDamageMults = {
+    [HITGROUP_HEAD] = 1.20,
+    [HITGROUP_CHEST] = 0.95,
+    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_LEFTARM] = 1,
+    [HITGROUP_RIGHTARM] = 1,
+    [HITGROUP_LEFTLEG] = 0.9,
+    [HITGROUP_RIGHTLEG] = 0.9,
+}
 
 
 SWEP.Ammo = "ar2" -- What ammo type this gun uses.

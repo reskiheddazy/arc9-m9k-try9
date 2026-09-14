@@ -47,6 +47,17 @@ SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
 SWEP.RangeMax = 10550 -- range sniper rifles
 
 
+--snipers
+
+SWEP.BodyDamageMults = {
+    [HITGROUP_HEAD] = 1.35,
+    [HITGROUP_CHEST] = 0.95,
+    [HITGROUP_STOMACH] = 0.85,
+    [HITGROUP_LEFTARM] = 0.9,
+    [HITGROUP_RIGHTARM] = 0.9,
+    [HITGROUP_LEFTLEG] = 0.9,
+    [HITGROUP_RIGHTLEG] = 0.9,
+}
 
 
 
