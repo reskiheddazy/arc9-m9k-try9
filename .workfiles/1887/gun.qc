@@ -125,4 +125,4 @@ $sequence "reload_insert" {
 
 
 $attachment "1" "muzzle" 0.00 0.00 0.00 rotate -90 0 0
-$attachment "2" "eject" 0.00 0.00 0.00 rotate -0 150 -180
+$attachment "2" "eject" 0.00 0.00 0.00 rotate -0 90 -180
