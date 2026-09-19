@@ -4,6 +4,13 @@ $modelname "arc9k_m16a3.mdl"
 $model "gun" "gun.dmx"
 
 
+$bodygroup "irons"
+{
+	studio "irons.dmx"
+	blank
+}
+
+
 
 
 

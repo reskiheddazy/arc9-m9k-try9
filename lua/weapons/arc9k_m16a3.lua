@@ -166,7 +166,7 @@ SWEP.HideBones = {"mag2"} -- bones to hide in third person and customize menu. {
 
 
 SWEP.IronSights = {
-    Pos = Vector(-2.695, -2.468, 1.12),
+    Pos = Vector(-4.138, -4.748, 0.479),
     Ang = Angle(0, 0, 0),
     Magnification = 1,
     AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
